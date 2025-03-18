@@ -1,6 +1,7 @@
 .navLink {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 12px 16px;
     border-radius: 8px;
     color: #666;
@@ -8,7 +9,7 @@
     font-weight: 500;
     transition: all 0.2s ease;
   }
-  
+
   .navLink:hover {
     background-color: rgba(0, 0, 0, 0.03);
     color: #000;
@@ -28,4 +29,10 @@
     0% { opacity: 0.7; }
     50% { opacity: 0.4; }
     100% { opacity: 0.7; }
+  }
+
+  @media (min-width: 768px)  {
+    .navLink {
+      justify-content: flex-start;
+    }
   }

@@ -4,7 +4,7 @@ import { Search } from 'lucide-react';
 import styles from './SearchBox.module.css';
 
 interface SearchBoxProps {
-  placeholder: string
+  placeholder: string;
   onSearch: (value: string) => void;
 }
 

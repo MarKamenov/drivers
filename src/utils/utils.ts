@@ -30,3 +30,14 @@ export const calculateDriverStats = (traces: Trace[]) => {
         }
     );
 };
+
+// Memoized debounce function
+export const debounce = <T extends unknown[], U>(func: (...args: T) => PromiseLike<U> | U, wait: number) => {
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+    return (...args: T) => {
+        if (timeout) {
+            clearTimeout(timeout);
+        }
+        timeout = setTimeout(() => func(...args), wait);
+    };
+};

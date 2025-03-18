@@ -3,7 +3,6 @@
 ![Vite](https://img.shields.io/badge/Vite-4.x-blueviolet?style=flat&logo=vite)
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat&logo=typescript)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat&logo=vercel)
 
 A React project bootstrapped with **Vite**.
 
@@ -13,7 +12,6 @@ A React project bootstrapped with **Vite**.
 - 🏗 **React** (latest version)
 - 🟦 **TypeScript** for static typing
 - 💅 **SCSS Modules /** support
-- 🚀 **Deployed on Vercel**
 
 ---
 

@@ -40,11 +40,6 @@ yarn dev
 ```sh
 yarn build
 ```
-
-## 🌍 Deployment
-
-This project is deployed on Vercel and can be accessed at: [https://pricing-chi.vercel.app/pricing](https://pricing-chi.vercel.app/pricing)
-
 ## Features in Detail
 
 - **Responsive Design**: Mobile-friendly approach

@@ -11,7 +11,7 @@ A React project bootstrapped with **Vite**.
 - ⚡ **Vite** for fast development and builds
 - 🏗 **React** (latest version)
 - 🟦 **TypeScript** for static typing
-- 💅 **SCSS Modules /** support
+- 💅 **CSS Modules /** support
 
 ---
 

@@ -1,9 +1,5 @@
 
 .card {
-  --color-drive: #34c759;
-  --color-rest: #5ac8fa;
-  --color-work: #ff9500;
-  --color-available: #af52de;
   display: flex;
   flex-direction: column;
   gap: 1rem;

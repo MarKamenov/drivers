@@ -1,4 +1,4 @@
-# React Vite Storybook Logistics-Fleet-Overview Project
+# React Vite Logistics-Fleet-Overview Project
 
 ![Vite](https://img.shields.io/badge/Vite-4.x-blueviolet?style=flat&logo=vite)
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)

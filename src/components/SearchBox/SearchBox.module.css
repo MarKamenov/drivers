@@ -1,0 +1,54 @@
+/* Component variables */
+.container {
+  --search-height: 2.5rem;
+  --search-padding: .75rem;
+  --search-radius: .4rem;
+  --search-font-size: 0.875rem;
+  
+  /* Colors */
+  --search-border: #e2e8f0;
+  --search-focus: #007aff;
+  --search-icon: #718096;
+  
+  /* Transitions */
+  --search-transition: 0.2s ease;
+}
+
+/* Layout */
+.container {
+  position: relative;
+  width: 100%;
+  height: var(--search-height);
+}
+
+/* Input styling */
+.input {
+  width: 100%;
+  height: 100%;
+  padding: 0 calc(var(--search-padding) * 3) 0 var(--search-padding);
+  border: 1px solid var(--search-border);
+  border-radius: var(--search-radius);
+  font-size: var(--search-font-size);
+  transition: all var(--search-transition);
+}
+
+/* Input states */
+.input:hover {
+  border-color: var(--search-focus);
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007aff;
+  box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.2);
+}
+
+/* Icon */
+.icon {
+  position: absolute;
+  right: var(--search-padding);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--search-icon);
+  pointer-events: none;
+}

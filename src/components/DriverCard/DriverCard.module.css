@@ -1,0 +1,73 @@
+
+.card {
+  --color-drive: #34c759;
+  --color-rest: #5ac8fa;
+  --color-work: #ff9500;
+  --color-available: #af52de;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  border-radius: .75rem;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-.25rem);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem; 
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+  word-break: break-word; 
+}
+
+.registration {
+  align-self: baseline;
+  font-size: .875rem;
+  color: #666;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+}
+
+.activitySummary {
+  padding: .75rem;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.totalTime {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.detailedBreakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

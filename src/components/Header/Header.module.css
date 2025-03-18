@@ -1,0 +1,36 @@
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  height: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.menuButton {
+  margin-right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menuButton {
+    display: none;
+  }
+}

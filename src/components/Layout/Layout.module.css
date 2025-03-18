@@ -1,0 +1,32 @@
+/* Mobile-first layout styles */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent body scroll */
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  overflow: hidden; /* Prevent container scroll */
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto; /* Only main content scrolls */
+  padding: 20px;
+  height: calc(100vh - 4rem); /* Subtract header height */
+  transition: margin-left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .main {
+    padding: 24px;
+    margin-left: 0;
+  }
+  .container {
+    flex-direction: row;
+  }
+}

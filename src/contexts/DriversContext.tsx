@@ -1,9 +1,7 @@
 import { createContext, ReactNode, useEffect, useReducer, useCallback, useMemo, use } from "react";
-import { Nullable } from "@/types/common";
-import { Driver } from "@/types/drivers";
-import { driversReducer } from "@/reducers/driversReducer";
+import { Nullable, Driver } from "@/types";
+import { driversReducer, DriversState, DriversTypes } from "@/reducers";
 import driversData from "@/data/drivers.json";
-import { DriversState, DriversTypes } from "@/reducers/types";
 
 export interface DriversContext extends DriversState {
     searchDriver: (value: string) => void;

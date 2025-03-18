@@ -1,9 +1,9 @@
 import { useMemo, useCallback } from 'react';
 import styles from './DriversList.module.css';
-import { DriverCard } from '../DriverCard/DriverCard';
-import { SearchBox } from '../SearchBox/SearchBox';
-import { useDrivers } from '@/contexts/DriversContext';
-import { debounce, filterDrivers } from '@/utils/utils';
+import { DriverCard } from '@/components/DriverCard';
+import { SearchBox } from '@/components/SearchBox';
+import { useDrivers } from '@/contexts';
+import { debounce, filterDrivers } from '@/utils';
 
 export const DriversList = () => {
   const { drivers, filter, searchDriver } = useDrivers();

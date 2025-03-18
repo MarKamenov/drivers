@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import {Header} from '../Header/Header';
-import {Sidebar} from '../Sidebar/Sidebar';
+import { Header } from '@/components/Header';
+import { Sidebar } from '@/components/Sidebar';
 import menuData from '../../data/menu.json';
 import styles from './Layout.module.css';
 

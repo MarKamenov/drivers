@@ -1,10 +1,10 @@
 
 import { useMemo } from 'react';
 import { ActivityType, Driver } from '@/types/drivers';
-import { WeekActivity } from '@/components/WeekActivity/WeekActivity';
-import { ActivityIndicator } from '@/components/ActivityIndicator/ActivityIndicator';
+import { WeekActivity } from '@/components/WeekActivity';
+import { ActivityIndicator } from '@/components/ActivityIndicator';
+import { calculateDriverStats } from '@/utils';
 import styles from './DriverCard.module.css';
-import { calculateDriverStats } from '@/utils/utils';
 
 interface DriverCardProps {
   driver: Driver;

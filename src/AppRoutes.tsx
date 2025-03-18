@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import { DriversProvider } from "@/contexts/DriversContext";
+import { DriversProvider } from "@/contexts";
 
 // Lazy load pages with proper loading boundaries
 const Layout = lazy(() => import("./components/Layout/Layout"));

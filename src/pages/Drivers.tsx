@@ -1,4 +1,4 @@
-import { DriversList } from '../components/DriversList/DriversList';
+import { DriversList } from '../components/DriversList';
 import pageStyles from '../assets/styles/pages.module.css';
 import styles from './Drivers.module.css';
 

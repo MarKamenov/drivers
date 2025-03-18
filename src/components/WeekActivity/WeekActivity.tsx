@@ -1,8 +1,8 @@
 
 import { useMemo } from 'react';
-import styles from './WeekActivity.module.css';
 import { format, parseISO, startOfWeek, addDays, isSameDay } from 'date-fns';
-import { Trace } from '@/types/drivers';
+import styles from './WeekActivity.module.css';
+import { Trace } from '@/types';
 interface WeekActivityProps {
   traces: Trace[];
 }

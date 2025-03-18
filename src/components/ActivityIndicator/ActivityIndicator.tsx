@@ -1,4 +1,4 @@
-import { ActivityType } from '@/types/drivers';
+import { ActivityType } from '@/types';
 import styles from './ActivityIndicator.module.css';
 
 interface ActivityIndicatorProps {

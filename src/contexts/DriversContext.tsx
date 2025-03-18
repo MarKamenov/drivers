@@ -9,7 +9,6 @@ export interface DriversContext extends DriversState {
     searchDriver: (value: string) => void;
 }
 
-
 const DriversContext = createContext<Nullable<DriversContext>>(null);
 
 export const DriversProvider = ({ children }: { children: ReactNode }) => {

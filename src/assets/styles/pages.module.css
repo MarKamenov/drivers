@@ -1,8 +1,14 @@
 .container {
-    padding: 0 20px;
+    padding: 0;
     max-width: 1200px;
     margin: 0 auto;
     animation: fadeIn 0.5s ease-in;
+  }
+
+  @media (min-width: 768px)  {
+    .container {
+      padding: 0 20px;
+    }
   }
 
   @keyframes fadeIn {

@@ -1,0 +1,22 @@
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.description {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.description:last-child {
+  margin-bottom: 0;
+}
